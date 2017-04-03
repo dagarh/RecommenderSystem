@@ -8,9 +8,10 @@ A **recommender system** or a **recommendation system** (sometimes replacing "sy
 
 a) **Content Based Filtering** >> Item -Item 
 
-    This doesn’t need much prerequisite data (ratings given by user and implicit user preference).Thus avoid cold-start </br>    problem. They can detect and recommend very well on Items similar to what a user has already liked or rated. But not         so good at suggesting something new, altogether different which might be a potential like for a user.
-
-    Distance based Metric can be used based on similarity or dissimilarity. Distance based algorithm like - Euclidean,           Pearson, Cosine similarity are some of main measures. Neighbour or cluster based approaches can be taken. K-means             clustering for similarity assessment.
+    This doesn’t need much prerequisite data (ratings given by user and implicit user preference).Thus avoid cold-start       problem. They can detect and recommend very well on Items similar to what a user has already liked or rated. But not so good at suggesting something new, altogether different which might be a potential like for a user.
+   </br>
+   
+       Distance based Metric can be used based on similarity or dissimilarity. Distance based algorithm like - Euclidean, Pearson, Cosine similarity are some of main measures. Neighbour or cluster based approaches can be taken. K-means clustering for similarity assessment.
 
 b) **Collaborative Filtering** >> Item-Item, User-Item.
 
